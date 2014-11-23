@@ -1,0 +1,1 @@
+include ':app', ':facebook', ':Parse-1.7.0'

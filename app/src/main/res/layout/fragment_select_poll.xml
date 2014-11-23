@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectPollFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="245dp"
+        android:background="@color/pb_sunflower"
+        android:layout_gravity="center_horizontal|top">
+
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="108dp"
+            android:text="Text Poll"
+            android:id="@+id/button_text"
+            android:textColor="#fff"
+            android:background="@drawable/roundedbuttongreen"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/text_icon"
+            android:paddingLeft="20dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="259dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="108dp"
+            android:text="Photos Poll"
+            android:background="@drawable/roundedbuttonconcrete"
+            android:textColor="#fff"
+            android:id="@+id/button_photo"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_action_camera"
+            android:paddingLeft="20dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

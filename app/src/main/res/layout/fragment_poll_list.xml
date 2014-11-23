@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.calhacks.pollabear.PollFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="453dp" />
+
+        <Button
+            android:id="@+id/addPollbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pb_sunflower"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="Add a poll"
+            android:gravity="center"
+            android:drawableLeft="@drawable/add_icon"
+            android:paddingLeft="65dp"
+            android:paddingRight="55dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</FrameLayout>

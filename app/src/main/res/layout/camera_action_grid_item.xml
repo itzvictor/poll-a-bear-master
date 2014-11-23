@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.calhacks.pollabear.SquareImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dp"
+    android:scaleType="centerCrop"
+    android:cropToPadding="true"
+    android:src="@drawable/ic_action_camera"
+    android:background="@drawable/camera_action_grid_item_border"
+    android:focusable="false"
+    android:id="@+id/camera_image_view" />

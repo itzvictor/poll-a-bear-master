@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.calhacks.pollabear.SelectFriendsFragment">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@android:id/list"
+        android:textColor="#fff"
+        android:background="@color/pb_green"
+        android:textSize="20dp"
+        android:text="Send to your friends"
+        android:drawableRight="@drawable/ic_action_send"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

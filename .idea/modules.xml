@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Parse-1.7.0/Parse-1.7.0.iml" filepath="$PROJECT_DIR$/Parse-1.7.0/Parse-1.7.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PollABear.iml" filepath="$PROJECT_DIR$/PollABear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poll-a-bear.iml" filepath="$PROJECT_DIR$/poll-a-bear.iml" />
+    </modules>
+  </component>
+</project>
+

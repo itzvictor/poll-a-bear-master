@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.calhacks.pollabear.SignInActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sign In"
+        android:id="@+id/signinLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+       <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+        android:layout_below="@+id/signinLabel"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/hint_color"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+        android:layout_below="@+id/email"
+        android:hint="@string/password"
+        android:textColorHint="@color/hint_color"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/password"
+        android:text="@string/signIn_btn"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email or Password did not work, Try another one!"
+        android:textColor="@color/error_color"
+        android:id="@+id/errorMessage"
+        android:layout_gravity="right"
+        android:autoLink="web"
+        android:visibility="invisible"
+        android:layout_below="@id/signin_btn"/>
+
+
+</RelativeLayout>

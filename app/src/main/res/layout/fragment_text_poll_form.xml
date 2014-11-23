@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.calhacks.pollabear.TextPollFormFragment">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_icon_vertical_padding"
+            android:gravity="center"
+            android:textSize="34dp"
+            android:textColor="@color/pb_navy"
+            android:text="New Text Poll!"/>
+
+
+        <EditText
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question"
+            android:textColorHint="@color/hint_color"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="35dp"
+            android:inputType="text"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="@dimen/question_input_text_size"/>
+
+        <EditText
+            android:id="@+id/option1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+            android:hint="@string/option"
+            android:textColorHint="@color/hint_color"
+            android:drawableLeft="@drawable/ic_action_star"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/option2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+            android:hint="@string/option"
+            android:textColorHint="@color/hint_color"
+            android:drawableLeft="@drawable/ic_action_star"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/option3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+            android:hint="@string/option"
+            android:textColorHint="@color/hint_color"
+            android:drawableLeft="@drawable/ic_action_star"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/option4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+            android:hint="@string/option"
+            android:drawableLeft="@drawable/ic_action_star"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pb_green"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="Select friends to poll"
+        android:drawableRight="@drawable/ic_action_send"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

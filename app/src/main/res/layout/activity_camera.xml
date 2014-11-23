@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <RelativeLayout
+        android:id="@+id/RelativeGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+        
+        <EditText
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question"
+            android:textColorHint="@color/hint_color"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="35dp"
+            android:inputType="text"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="@dimen/question_input_text_size"/>
+
+
+        <GridView
+            android:id="@+id/gridviewimg"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:numColumns="2"
+            android:layout_marginTop="106dp"
+            android:smoothScrollbar="true"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/RelativeGridLayout"
+        />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="Select friends to poll"
+        android:drawableRight="@drawable/ic_action_send"
+        android:background="@color/pb_green"
+        android:layout_alignParentBottom="true"/>
+    
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_header_selector"
+    tools:context="com.calhacks.pollabear.TextResponseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/abc_action_bar_progress_bar_size"
+            android:layout_marginBottom="@dimen/abc_action_bar_stacked_max_height"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textSize="34dp"
+            android:textColor="@color/button_color"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+                android:textColorHint="@color/hint_color"
+                android:visibility="gone"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+                android:textColorHint="@color/hint_color"
+                android:visibility="gone"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+                android:textColorHint="@color/hint_color"
+                android:visibility="gone"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/abc_action_bar_subtitle_text_size"
+                android:textColorHint="@color/hint_color"
+                android:visibility="gone"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pb_navy"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="Submit your response"
+        android:drawableRight="@drawable/ic_action_send"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

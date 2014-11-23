@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan">#00cccc</color>
+    <color name="hint_color">#1E90FF</color>
+    <color name="button_color">#7B68EE</color>
+    <color name="window_background">#F2F2DF</color>
+    <color name="item_selected_color">#00cccc</color>
+    <color name="error_color">#FF0000</color>
+    <!--Custom Theme-->
+    <color name="pb_green">#03C9A9</color>
+    <color name="pb_brown">#866544</color>
+    <color name="pb_navy">#34495e</color>
+    <color name="pb_concrete">#95a5a6</color>
+    <color name="pb_sunflower">#f1c40f</color>
+</resources>
